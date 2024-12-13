@@ -1,0 +1,73 @@
+.navbar{
+    list-style: none;
+    text-align: center;
+}
+.navbar li{
+    display: inline-block;
+    border: 2px solid green;
+    margin: 0px 5px;
+    padding: 3px 7px;
+    width: 100px;
+    border-radius: 10%;
+    
+}
+.navbar a li{
+    text-decoration: none;
+    color: rgb(201, 25, 12);
+    font-size: larger;
+}
+.navbar li:hover{
+    border: 2px solid orangered;
+    border-radius: 10%;
+    background-color: green;
+    transition: 0.5s;
+}
+.navbar a li:hover{
+    color: white;
+    background-color: green;
+    
+}
+#glavna{
+    width: 60%;
+    margin-left: 20%;
+}
+body{
+     background-color: rgba(9, 56, 46, 0.336);
+     
+}
+#textarea1{
+    width: 200px;
+    height: 75px;
+}
+form{
+    margin-left: 100px;
+    position: absolute;
+    font-size: larger;
+}
+#posalji{
+    width: 80px;
+    height: 30px;
+    margin-left: 50px;
+    background-color: white;
+}
+p{
+    font-family: mojfont;
+    color: blue;
+    font-size: 20px;
+    
+}
+@font-face {
+    font-family: mojfont;
+    src: url(font/PlaywriteGBSGuides-Italic.ttf);
+}
+.img1{
+    height: 200px;
+    width: 300px;
+    margin-top: 50px;
+    padding: 0px 5px;
+    display: inline-block;
+}
+div{
+    margin-left: 20%;
+    
+}
